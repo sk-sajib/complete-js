@@ -56,6 +56,8 @@ var obj = {}
 // console.log(obj.b)
 // console.log(obj.a + obj.b)
 
+// console.log(obj['a'])
+
 
 // var show = 'c'
 // console.log(obj[show])
@@ -88,5 +90,4 @@ var obj = {
 // Remove Object Properties in Javascript
 
 delete obj.b
-
 console.log(obj)
