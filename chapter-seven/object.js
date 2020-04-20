@@ -31,13 +31,62 @@ var obj = {}
 
 // Object Constructor used in OOP JS
 
-var obj = Object()
-obj.a = 10
+// var obj = Object()
+// obj.a = 10
+
+// console.log(obj)
+
+// var obj2 = new Object()
+// obj2.b = 11
+
+// console.log(obj2)
+
+
+/// Accessing Object Properties in Javascript
+
+
+// var obj = {
+//     a : 10,
+//     b : 20,
+//     c : "sajib"
+
+// }
+
+// console.log(obj.a)
+// console.log(obj.b)
+// console.log(obj.a + obj.b)
+
+
+// var show = 'c'
+// console.log(obj[show])
+
+
+
+//  Update Object Properties in Javascript
+
+
+var obj = {
+    a : 10,
+    b : 20,
+    c : "sajib"
+
+}
+
+
+// obj.a =20
+// obj.c = 'sakib'
+// //console.log(obj)
+
+
+// obj ['b'] = 45
+
+// var prop = 'c'
+// obj[prop] = 'abir'
+
+// console.log(obj)
+
+// Remove Object Properties in Javascript
+
+delete obj.b
 
 console.log(obj)
-
-var obj2 = new Object()
-obj2.b = 11
-
-console.log(obj2)
-
